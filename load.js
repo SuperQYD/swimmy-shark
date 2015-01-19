@@ -11,6 +11,11 @@ var load_state = {
     game.load.image('background_1', 'assets/images/background_1.png');
     game.load.image('bloom', 'assets/images/bloom.png');
     game.load.image('drum', 'assets/images/drum.png');
+    
+    game.load.audio('swim', 'assets/sounds/swim.wav');
+    game.load.audio('underwater', 'assets/sounds/underwater.wav');
+    game.load.audio('bleep', 'assets/sounds/bleep.wav');
+    game.load.audio('punch', 'assets/sounds/punch.wav');
 
   },
 
